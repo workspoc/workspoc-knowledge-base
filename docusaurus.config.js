@@ -34,8 +34,9 @@ const config = {
     footer: {
       style: 'light',
       links: [
-        {title: 'Explore', items: [{label: 'Getting Started', to: '/docs/quick-start-guide'}, {label: 'Market Intelligence', to: '/market-intelligence'}, {label: 'Survey Design Assistant', to: '/survey-design-assistant'}]},
+        {title: 'Portal', items: [{label: 'Home', to: '/'}, {label: 'Knowledge Base', to: '/docs/welcome-to-workspoc'}, {label: 'Getting Started', to: '/docs/quick-start-guide'}, {label: 'Market Intelligence', to: '/market-intelligence'}, {label: 'Survey Design Assistant', to: '/survey-design-assistant'}]},
         {title: 'Help', items: [{label: 'FAQs', to: '/docs/frequently-asked-questions'}, {label: 'Troubleshooting', to: '/docs/troubleshooting'}, {label: 'Contextual Help Demo', to: '/contextual-help-demo'}]},
+        {title: 'Language', items: [{label: 'English', href: 'https://workspoc-kb.netlify.app/', target: '_self'}, {label: 'हिन्दी', href: 'https://workspoc-kb.netlify.app/hi/', target: '_self'}, {label: 'Français', href: 'https://workspoc-kb.netlify.app/fr/', target: '_self'}]},
       ],
       copyright: `© ${new Date().getFullYear()} workSPOC Voice. Internal demonstration.`,
     },

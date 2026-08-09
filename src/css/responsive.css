@@ -12,6 +12,8 @@ img,video,iframe{max-width:100%;height:auto}
 @media(max-width:996px){
   :root{--ifm-navbar-height:64px}
   .navbar{padding:0 14px}
+  .navbar__toggle{display:flex!important;align-items:center;justify-content:center}
+  .navbar-sidebar{display:block}
   .navbar__inner,.navbar__brand,.main-wrapper{min-width:0}
   .navbar__brand{gap:10px}
   .navbar-sidebar__brand{padding:10px 14px}
@@ -50,6 +52,7 @@ img,video,iframe{max-width:100%;height:auto}
   .pagination-nav__link{margin:0!important}
   .footer{padding:40px 0}
   .footer__links{display:grid;grid-template-columns:1fr 1fr;margin:0}
+  .footer__col:first-child{grid-column:1/-1}
   .footer__col{width:auto!important;max-width:none!important;padding:0 10px}
   .footer__copyright{font-size:.76rem}
   .button.button--lg{white-space:normal;line-height:1.35;text-align:center;width:100%}
