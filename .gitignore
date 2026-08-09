@@ -1,0 +1,21 @@
+# Dependencies
+node_modules/
+
+# Docusaurus generated output
+build/
+.docusaurus/
+
+# Local caches and logs
+.cache-loader/
+*.log
+npm-debug.log*
+
+# Environment and operating-system files
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
+
+# Locally generated deployment packages
+*.zip

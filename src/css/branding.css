@@ -1,0 +1,6 @@
+.navbar__brand{gap:18px}
+.navbar__logo{height:50px;display:flex;align-items:center}
+.navbar__logo img{width:176px;height:auto;max-height:50px;object-fit:contain}
+.navbar__title:before,.navbar__title:after{content:none}
+.navbar__title{font-size:.96rem;color:#38445b;padding-left:18px;border-left:1px solid #dfe3ea}
+@media(max-width:600px){.navbar__logo img{width:145px}.navbar__title{display:none}}
