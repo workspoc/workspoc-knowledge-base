@@ -4,7 +4,7 @@ description: Begin your workSPOC journey.
 ---
 # Welcome to workSPOC
 
-workSPOC Voice is an enterprise Voice of Customer platform that helps teams turn customer feedback into coordinated, measurable improvement.
+workSPOC Voice is an enterprise Voice of Customer platform that helps teams turn customer feedback into coordinated, measurable improvements.
 
 ## Why this matters
 
@@ -20,11 +20,11 @@ Start with the [Quick Start Guide](./quick-start-guide.md), then use the checkli
 
 ## What you can do
 
-- Model the organisation and customer landscape.
-- Maintain a reusable VOC framework and question library.
-- Design and distribute targeted surveys.
-- Compare responses and identify themes.
-- Assign actions and track measurable improvement.
+* Model the organisation and customer landscape.
+* Maintain a reusable VOC framework and question library.
+* Design and distribute targeted surveys.
+* Compare responses and identify themes.
+* Assign actions and track measurable improvement.
 
 ## Example
 
@@ -32,13 +32,13 @@ A regional service team surveys key accounts after delivery. Results are segment
 
 ## Best practices
 
-- Agree measurement outcomes before configuring the platform.
-- Use clear naming conventions across organisational structures.
-- Keep permissions and contacts current.
-- Close the loop by communicating actions to stakeholders.
+* Agree measurement outcomes before configuring the platform.
+* Use clear naming conventions across organisational structures.
+* Keep permissions and contacts current.
+* Close the loop by communicating actions to stakeholders.
 
 ## Related articles
 
-- [What is workSPOC Voice?](./what-is-workspoc-voice.md)
-- [Platform Overview](./platform-overview.md)
-- [Quick Start Guide](./quick-start-guide.md)
+* [What is workSPOC Voice?](./what-is-workspoc-voice.md)
+* [Platform Overview](./platform-overview.md)
+* [Quick Start Guide](./quick-start-guide.md)
