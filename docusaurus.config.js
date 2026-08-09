@@ -26,6 +26,7 @@ const config = {
       logo: {alt: 'workSPOC Voice', src: 'img/workspoc-logo.webp', width: 176, height: 50},
       items: [
         {type: 'custom-globalSearch', position: 'right'},
+        {to: '/studio', label: 'Open workSPOC', position: 'right'},
         {to: '/market-intelligence', label: 'Market Intelligence', position: 'right'},
         {to: '/survey-design-assistant', label: 'Survey Assistant', position: 'right'},
         {type: 'localeDropdown', position: 'right'},
@@ -34,7 +35,7 @@ const config = {
     footer: {
       style: 'light',
       links: [
-        {title: 'Portal', items: [{label: 'Home', to: '/'}, {label: 'Knowledge Base', to: '/docs/welcome-to-workspoc'}, {label: 'Getting Started', to: '/docs/quick-start-guide'}, {label: 'Market Intelligence', to: '/market-intelligence'}, {label: 'Survey Design Assistant', to: '/survey-design-assistant'}]},
+        {title: 'Portal', items: [{label: 'Open workSPOC', to: '/studio'}, {label: 'Home', to: '/'}, {label: 'Knowledge Base', to: '/docs/welcome-to-workspoc'}, {label: 'Getting Started', to: '/docs/quick-start-guide'}, {label: 'Market Intelligence', to: '/market-intelligence'}, {label: 'Survey Design Assistant', to: '/survey-design-assistant'}]},
         {title: 'Help', items: [{label: 'FAQs', to: '/docs/frequently-asked-questions'}, {label: 'Troubleshooting', to: '/docs/troubleshooting'}, {label: 'Contextual Help Demo', to: '/contextual-help-demo'}]},
         {title: 'Language', items: [{label: 'English', href: 'https://workspoc-kb.netlify.app/', target: '_self'}, {label: 'हिन्दी', href: 'https://workspoc-kb.netlify.app/hi/', target: '_self'}, {label: 'Français', href: 'https://workspoc-kb.netlify.app/fr/', target: '_self'}]},
       ],
