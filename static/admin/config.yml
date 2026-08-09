@@ -27,11 +27,7 @@ collections:
     format: frontmatter
     identifier_field: title
     summary: "{{title}}"
-    sortable_fields:
-      fields: [title]
-      default:
-        field: title
-        direction: ascending
+    sortable_fields: [title]
     fields:
       - label: Article title
         name: title
