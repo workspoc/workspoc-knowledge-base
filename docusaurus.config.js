@@ -18,7 +18,7 @@ const config = {
   presets: [['classic', {
     docs: {sidebarPath: require.resolve('./sidebars.js'), routeBasePath: 'docs'},
     blog: false,
-    theme: {customCss: [require.resolve('./src/css/custom.css'), require.resolve('./src/css/branding.css'), require.resolve('./src/css/search-overrides.css')]},
+    theme: {customCss: [require.resolve('./src/css/custom.css'), require.resolve('./src/css/branding.css'), require.resolve('./src/css/search-overrides.css'), require.resolve('./src/css/responsive.css')]},
   }]],
   themeConfig: {
     navbar: {
