@@ -45,3 +45,35 @@ collections:
       - label: Article content
         name: body
         widget: markdown
+  - name: hindi_documentation
+    label: Hindi Translations
+    label_singular: Hindi article
+    description: Review and publish approved Hindi article translations.
+    folder: i18n/hi/docusaurus-plugin-content-docs/current
+    create: false
+    delete: false
+    extension: md
+    format: frontmatter
+    identifier_field: title
+    summary: "{{title}}"
+    sortable_fields: [title]
+    fields:
+      - {label: Article title, name: title, widget: string}
+      - {label: Description, name: description, widget: text, required: false}
+      - {label: Article content, name: body, widget: markdown}
+  - name: french_documentation
+    label: French Translations
+    label_singular: French article
+    description: Review and publish approved French article translations.
+    folder: i18n/fr/docusaurus-plugin-content-docs/current
+    create: false
+    delete: false
+    extension: md
+    format: frontmatter
+    identifier_field: title
+    summary: "{{title}}"
+    sortable_fields: [title]
+    fields:
+      - {label: Article title, name: title, widget: string}
+      - {label: Description, name: description, widget: text, required: false}
+      - {label: Article content, name: body, widget: markdown}

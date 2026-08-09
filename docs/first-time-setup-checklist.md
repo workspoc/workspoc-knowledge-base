@@ -15,4 +15,4 @@ Complete these checks before the first survey:
 - [ ] Test response completed
 - [ ] Insight review and action process scheduled
 
-Follow the [Quick Start Guide](./quick-start-guide.md) for the complete journey.
+Follow the [Quick Start Guide](./quick-start-guide) for the complete journey.

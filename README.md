@@ -22,3 +22,10 @@ The same content could later be hosted centrally and opened from workSPOC routes
 ## Content administration
 
 The deployed site includes a Decap CMS editor at `/admin/`. Approved GitHub collaborators can sign in, edit existing Markdown articles, save drafts and publish through the editorial workflow. Publishing creates a repository change and triggers Netlify's automatic build. Article creation and sidebar changes remain developer-controlled in this initial version.
+
+## Enhanced experience
+
+- Global search indexes documentation, sector intelligence and guided tools during every build.
+- Market Intelligence includes sector-specific journey playbooks for Banking, Healthcare, Manufacturing, Retail & E-commerce, and Technology & SaaS.
+- The Survey Design Assistant creates a local, reviewable design brief without sending data to an external AI service.
+- English is the default locale. Hindi and French are enabled, with reviewed translations managed as separate CMS collections. Untranslated content falls back to the English source until reviewed translations are added.

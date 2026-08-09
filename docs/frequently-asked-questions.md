@@ -20,6 +20,6 @@ Quick answers to common questions about configuring and using workSPOC Voice.
 
 ## Related articles
 
-- [Quick Start Guide](./quick-start-guide.md)
+- [Quick Start Guide](./quick-start-guide)
 - [Troubleshooting](./troubleshooting.md)
 - [Contact Support](./contact-support.md)
