@@ -1,6 +1,6 @@
 ---
 title: Welcome to workSPOC
-description: Begin your workSPOC Voice journey.
+description: Begin your workSPOC journey.
 ---
 # Welcome to workSPOC
 
