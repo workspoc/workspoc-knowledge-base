@@ -31,7 +31,7 @@ const localeCopy = {
     popular: 'POPULAR ARTICLES', essentials: 'Start with the essentials',
     practical: 'Practical guidance for the tasks teams use most.', newUser: 'NEW TO WORKSPOC?',
     cta: 'Go from setup to your first insight.', path: 'Follow a practical, step-by-step path through the platform.',
-    button: 'Start with the Quick Start Guide →',
+    button: 'Start with the Quick Start Guide →', browse: 'Browse all help articles', quick: 'Open Quick Start',
   },
   hi: {
     eyebrow: 'workSPOC VOICE · ज्ञान आधार', title: 'हम आपकी कैसे सहायता कर सकते हैं?',
@@ -40,7 +40,7 @@ const localeCopy = {
     popular: 'लोकप्रिय लेख', essentials: 'आवश्यक विषयों से शुरुआत करें',
     practical: 'टीमों द्वारा सबसे अधिक उपयोग किए जाने वाले कार्यों के लिए व्यावहारिक मार्गदर्शन।', newUser: 'workSPOC में नए हैं?',
     cta: 'सेटअप से अपनी पहली इनसाइट तक जाएँ।', path: 'प्लेटफ़ॉर्म के लिए एक व्यावहारिक चरण-दर-चरण मार्ग अपनाएँ।',
-    button: 'त्वरित शुरुआत मार्गदर्शिका खोलें →',
+    button: 'त्वरित शुरुआत मार्गदर्शिका खोलें →', browse: 'सभी सहायता लेख देखें', quick: 'त्वरित शुरुआत खोलें',
   },
   fr: {
     eyebrow: 'workSPOC VOICE · BASE DE CONNAISSANCES', title: 'Comment pouvons-nous vous aider ?',
@@ -49,7 +49,7 @@ const localeCopy = {
     popular: 'ARTICLES POPULAIRES', essentials: 'Commencez par l’essentiel',
     practical: 'Des conseils pratiques pour les tâches les plus courantes.', newUser: 'NOUVEAU SUR WORKSPOC ?',
     cta: 'Passez de la configuration à votre premier insight.', path: 'Suivez un parcours pratique, étape par étape, à travers la plateforme.',
-    button: 'Ouvrir le guide de démarrage →',
+    button: 'Ouvrir le guide de démarrage →', browse: 'Voir tous les articles', quick: 'Ouvrir le démarrage rapide',
   },
 };
 
@@ -73,12 +73,13 @@ export default function Home() {
 
   return <Layout title="Knowledge Base" description="workSPOC Voice product documentation">
     <main>
-      <section className={styles.hero}>
+      <section className={`${styles.hero} kbHomeHero`}>
         <div className={styles.eyebrow}>{copy.eyebrow}</div>
         <h1>{copy.title}</h1><p>{copy.intro}</p>
         <div className={styles.search}><span>⌕</span><input aria-label="Search help" placeholder={copy.search} value={q} onChange={e => setQ(e.target.value)}/>
           {q && <div className={styles.results}>{found.length ? found.map(a => <Link key={a.url} to={a.url}><div><small>{a.type}</small>{a.title}</div><b>→</b></Link>) : <em>{copy.empty}</em>}</div>}
         </div>
+        <div className="kbHeroActions"><Link className="button button--primary button--lg" to="/docs/welcome-to-workspoc">{copy.browse}</Link><Link className="button button--secondary button--lg" to="/docs/quick-start-guide">{copy.quick}</Link></div>
       </section>
       <div className={styles.shell}>
         <section className={styles.categories}>{categories.map(c => <Link className={styles.card} to={c[3]} key={c[1]}><i>{c[0]}</i><div><h2>{c[1]}</h2><p>{c[2]}</p></div><b>→</b></Link>)}</section>
