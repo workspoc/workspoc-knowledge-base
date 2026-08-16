@@ -5,6 +5,12 @@
 [build.environment]
   NODE_VERSION = "20"
 
+[[redirects]]
+  from = "/"
+  to = "/docs/welcome-to-workspoc/"
+  status = 302
+  force = true
+
 [[headers]]
   for = "/*"
   [headers.values]
