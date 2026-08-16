@@ -5,3 +5,11 @@
 .kbHomeHero [class*="search_"]{margin-top:28px}
 .kbHeroActions{display:flex;justify-content:center;gap:12px;margin-top:20px}
 @media(max-width:850px){.kbHomeHero{padding-top:45px!important;padding-bottom:55px!important}.kbHeroActions{flex-direction:column;align-items:stretch;max-width:360px;margin:18px auto 0}}
+/* Documentation workspace: white index, readable content, persistent help rail. */
+.theme-doc-sidebar-container,.theme-doc-sidebar-menu{background:#fff!important;color:#25324a!important}
+.theme-doc-sidebar-container .menu__link{color:#4c5a70!important;border-radius:8px}
+.theme-doc-sidebar-container .menu__link--active{background:#eef3ff!important;color:#2356d8!important;font-weight:800}
+.theme-doc-sidebar-container .menu__list-item-collapsible>.menu__link{color:#657188!important}
+.theme-doc-markdown{max-width:760px}
+[class*="helpRail_"]{background:transparent!important;color:#25324a!important}
+[class*="helpRail_"]>section:first-child{border:1px solid #e0e6ef!important;border-radius:14px!important;background:#fff!important;padding:17px!important;color:#4c5a70!important}
