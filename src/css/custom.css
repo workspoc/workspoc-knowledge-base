@@ -6,10 +6,17 @@
 .kbHeroActions{display:flex;justify-content:center;gap:12px;margin-top:20px}
 @media(max-width:850px){.kbHomeHero{padding-top:45px!important;padding-bottom:55px!important}.kbHeroActions{flex-direction:column;align-items:stretch;max-width:360px;margin:18px auto 0}}
 /* Documentation workspace: white index, readable content, persistent help rail. */
+.theme-doc-sidebar-container{--doc-sidebar-width:260px!important;width:260px!important;min-width:260px!important}
 .theme-doc-sidebar-container,.theme-doc-sidebar-menu{background:#fff!important;color:#25324a!important}
-.theme-doc-sidebar-container .menu__link{color:#4c5a70!important;border-radius:8px}
-.theme-doc-sidebar-container .menu__link--active{background:#eef3ff!important;color:#2356d8!important;font-weight:800}
-.theme-doc-sidebar-container .menu__list-item-collapsible>.menu__link{color:#657188!important}
+.theme-doc-sidebar-container .menu{padding:12px 10px 28px;font-family:"Segoe UI",Arial,sans-serif}
+.theme-doc-sidebar-container .menu__link{color:#48566b!important;border-radius:6px;font-size:.84rem;font-weight:450;line-height:1.35;padding:7px 10px}
+.theme-doc-sidebar-container .menu__link--active:not(.menu__link--sublist){background:#eaf1ff!important;color:#1758c7!important;font-weight:650}
+.theme-doc-sidebar-container .menu__list-item-collapsible{border-radius:6px;margin-top:5px}
+.theme-doc-sidebar-container .menu__list-item-collapsible>.menu__link{color:#667389!important;font-size:.68rem;font-weight:700;letter-spacing:.065em;padding:9px 8px}
+.theme-doc-sidebar-container .menu__caret{padding:7px}
+.theme-doc-sidebar-container .menu__caret:before,.theme-doc-sidebar-container .menu__link--sublist-caret:after{background-size:1.15rem 1.15rem;opacity:.65}
+.theme-doc-sidebar-container .menu__list .menu__list{margin-left:0;padding-left:8px}
+.theme-doc-sidebar-menu>.menu__list>.menu__list-item{border-bottom:1px solid #edf0f4;padding-bottom:6px;margin-bottom:5px}
 .theme-doc-markdown{max-width:760px}
 [class*="helpRail_"]{background:transparent!important;color:#25324a!important}
 [class*="helpRail_"]>section:first-child{border:1px solid #e0e6ef!important;border-radius:14px!important;background:#fff!important;padding:17px!important;color:#4c5a70!important}
