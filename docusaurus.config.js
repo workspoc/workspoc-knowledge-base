@@ -25,6 +25,7 @@ const config = {
       title: 'Knowledge Base',
       logo: {alt: 'workSPOC Voice', src: 'img/workspoc-logo.webp', width: 176, height: 50},
       items: [
+        {to: '/docs/welcome-to-workspoc', label: 'Help Articles', position: 'right'},
         {type: 'custom-globalSearch', position: 'right'},
         {to: '/studio', label: 'Open workSPOC', position: 'right'},
         {to: '/market-intelligence', label: 'Market Intelligence', position: 'right'},
